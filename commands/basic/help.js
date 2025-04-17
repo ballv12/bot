@@ -13,9 +13,9 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
             // Constants for styling
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://pbs.twimg.com/profile_images/1653887603752554496/h8C0bcgS_400x400.jpg";
             const EMBED_COLOR = "#5865F2"; // Discord blurple for a more modern look
-            const FOOTER_TEXT = "All In One | The Discord Operating System • Created by GlaceYT";
+            const FOOTER_TEXT = "All In One | The Discord Operating System • Created by Bell";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
 
