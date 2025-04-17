@@ -157,8 +157,8 @@ async function sendTicketEmbed(channel) {
         .setPlaceholder('Choose ticket type')
         .addOptions([
             { label: '🆘 Support', value: 'support' },
-            { label: '📂 Suggestion', value: 'suggestion' },
-            { label: '💜 Feedback', value: 'feedback' },
+            { label: '🤝 Partnerships', value: 'partnerships' },
+            { label: '👨🏻‍💻 Developer', value: 'developer' },
             { label: '⚠️ Report', value: 'report' }
         ]);
 
